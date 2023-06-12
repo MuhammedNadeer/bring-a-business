@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/mmg1.jpg" type="image/x-icon">
+    <title>Malabar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="load()">
+    <div id="loader"></div>
+    <div id="content">
+        <header style="position: fixed; width: 100%; z-index: 100;">
+            <nav class="navbar navbar-expand-lg navbar-custom">
+                <div class="container-fluid">
+                    <a class="navbar-brand navbrand" style="color: white; margin-left: 20px;" href="#">
+                        malabar
+                    </a>
+                  <button class="navbar-toggler toggler" type="button" style="border-color: white; background-color: rgb(28, 255, 206);" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="color: white;"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item" >
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="#Home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Services" style="color: white;">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#location" style="color: white;">Locate Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Queries" style="color: white;">Queries</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </header>
+        <section id="Home">
+            <div class="container-fluid">
+                <div class="row home">
+                    <div class="col-lg-12">
+                    <h1>Malabar Centre for Advanced <br> Diagnosis L L P</h1>
+                    <button>Contact Us</button>
+                    <div class="img">
+                    <img src="images/successful-medical-team.jpg" alt="" srcset="" class="img-fluid"></div>
+                </div></div>
+            </div>
+        </section>
+        <section id="Services">
+            <div class="container-fluid">
+                <h2>Our Services</h2>
+                <div class="service">
+                    <i class="fas fa-flask"></i>
+                    <h3>Advanced Diagnostics</h3>
+                    <p>We offer a wide range of advanced diagnostic tests and procedures to accurately identify and diagnose various medical conditions.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-vial"></i>
+                    <h3>Lab Testing</h3>
+                    <p>Our laboratory provides comprehensive lab testing services, including blood tests, urine tests, genetic testing, and more.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Microbiology</h3>
+                    <p>Our microbiology department specializes in the identification and analysis of microorganisms. We conduct tests to detect bacteria, viruses, fungi, and parasites, helping healthcare professionals make informed treatment decisions.</p>
+                </div>
+            </div>
+        </section>
+        <section id="location">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Location</h1>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.2318980017317!2d75.92259757558476!3d11.170458389003292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64f65bec72605%3A0x5986c8efc5430b71!2sMalabar%20Centre%20for%20Advanced%20Diagnosis%20L%20L%20P!5e0!3m2!1sen!2sin!4v1686574323033!5m2!1sen!2sin" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Queries">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" style="text-align: center;">
+                        <h1>Queries</h1>
+                        <p>For any queries, please contact us at:</p>
+                        <p>Phone: 0495 272 1010</p>
+                </div>
+                <div class="row">
+                    <form action="" method="" class="form">
+                        <h1 style="text-align: center;">OR</h1>
+                        <br>
+                        <label>
+                            Your email:
+                            <input type="email" name="email" class="form-control">
+                        </label>
+                        <label>
+                            Your message:
+                            <textarea name="message" class="form-control"></textarea>
+                        </label>
+                        
+                        <button type="submit" class="btn btn-dark">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <a href="" class="fa fa-facebook"></a>
+        <a href="" class="fa fa-twitter"></a>
+        <a href="" class="fa fa-instagram"></a>
+        <a href="" class="fa fa-linkedin"></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
