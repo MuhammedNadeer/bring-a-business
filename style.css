@@ -128,7 +128,6 @@ iframe{
     justify-content: center;
     width: 300px;
     margin: auto;
-    /* margin-top: 20px; */
     margin-bottom: 100px;
     padding-top: 50px;
 }
@@ -182,7 +181,43 @@ button:hover{
     opacity: 80%;
     cursor: pointer;
 }
-
+#reviews {
+    padding: 80px 0;
+    background-color: #1CA9A6;
+  }
+  
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+  
+.review {
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+.review img {
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+  
+.review h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.review p {
+    font-size: 16px;
+}
+  
 footer{
     height: 80px;
     width: 100%;
