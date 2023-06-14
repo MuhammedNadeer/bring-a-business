@@ -12,6 +12,10 @@
     background-color: #1CA9A6;
 }
 
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+
 body{
     background-color: #1CA9A6;
     color: #fff;
@@ -187,6 +191,8 @@ button:hover{
   }
   
 .container {
+    display: flex;
+    flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
     padding: 0 15px;
@@ -219,7 +225,7 @@ h2 {
 }
   
 footer{
-    height: 80px;
+    height: 60px;
     width: 100%;
     margin-top: 100px;
     display: flex;
@@ -255,10 +261,6 @@ footer{
     color: white;
 }
 
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
 
 .fa-instagram {
     background: #125688;
